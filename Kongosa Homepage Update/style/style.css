@@ -1,0 +1,86 @@
+.carousel-item h2{
+	font-size: 76px;
+	font-weight: normal;
+}
+
+
+.carousel-item p {
+	text-align: center;
+	font-size: 28px;
+	padding: 0 0 50px 0;
+	
+}
+
+.btn-primary {
+	background-color: #7C0DB3;
+	color:#ffffff;
+	border-color: #7C0DB3;
+	border: 2px solid #7C0DB3;
+	padding: 10px 70px 10px 70px;
+	margin-bottom: 170px
+
+}
+
+
+.btn-primary:hover{
+	background: transparent;
+	color:#7C0DB3;
+	border: 2px solid #7C0DB3;
+}
+
+
+#search{
+	width: 60%;
+	padding: 7px;
+	border: 1px solid #7C0DB3;
+}
+
+#submit{
+	border-radius: 0px 5px 5px 0px;
+	padding: 8px;
+	background: #7C0DB3;
+	border: 1px solid #7C0DB3;
+	color: white;
+	margin-left: -20px;
+	cursor: pointer;
+	width: 172px;
+}
+
+#submit:hover{
+	background: #E7BDFC;
+	transition: all 0.30s;
+	border: #E7BDFC;;
+}
+
+.container-a{
+	padding-top: 30px;
+	background-color: grey-white;
+}
+
+.image-resize{
+	height: 224px;
+	object-fit:cover;
+	object-position: top center;
+}
+
+.owl-prev{
+	left: -30px;
+}
+
+.owl-next{
+	right: -30px;
+}
+
+.owl-prev, .owl-next{
+	position: absolute;
+	top: 30%;
+}
+
+.owl-prev span, .owl-next span{
+	font-size: 60px;
+	color: #787878;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover{
+	background-color: transparent;
+}
